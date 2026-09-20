@@ -19,7 +19,7 @@
     <section class="mb-8">
       <h2 class="text-2xl font-semibold mb-2">About</h2>
       <p>
-        Ph.D. in Electrical and Computer Engineering with industry experience in embedded AI, NPU optimization, and ML model deployment. Skilled in C++, Python, CUDA, and TensorFlow. Seeking roles in AI, compilers, or hardware-software co-design.
+        Ph.D. in Electrical and Computer Engineering with industry experience in embedded AI, NPU optimization, and ML model deployment. Skilled in C++, Python, CUDA, and TensorFlow. Currently an ML Firmware Engineer at Ambiq Micro, with a particular interest in AI compilers and hardware-software co-design.
       </p>
     </section>
 
@@ -28,8 +28,20 @@
   <h2 class="text-2xl font-semibold mb-2">Experience</h2>
 
   <div class="mb-6">
+    <h3 class="text-lg font-bold">ML Firmware Engineer</h3>
+    <p class="text-sm text-gray-600">Ambiq Micro, Austin, TX — June 2025 – Present</p>
+    <ul class="list-disc list-inside text-sm mt-1">
+      <li>Deployed INT8 MobileNet models on Arm Cortex-M55 (Apollo510) via HeliaRT, re-quantizing UINT8 graphs to unlock accelerated convolution kernels.</li>
+      <li>Built camera-to-inference firmware: SPI/DMA capture, RGB565 pre-processing, on-device classification, and live results streamed to a browser over WebUSB.</li>
+      <li>Fit models larger than on-chip MRAM by loading weights into external PSRAM, with validated reuse across resets and reconnects.</li>
+      <li>Designed a compact INT8-friendly face-embedding network (ArcFace, 96×96 input) with C-based cosine matching for on-device recognition on Cortex-M55-class MCUs.</li>
+      <li>Automated CMake build, J-Link flash, and test scripts for repeatable on-device evaluation.</li>
+    </ul>
+  </div>
+
+  <div class="mb-6">
     <h3 class="text-lg font-bold">Machine Learning Software Engineer</h3>
-    <p class="text-sm text-gray-600">NXP Semiconductors, Austin, TX — May 2022 – Present</p>
+    <p class="text-sm text-gray-600">NXP Semiconductors, Austin, TX — May 2022 – May 2025</p>
     <ul class="list-disc list-inside text-sm mt-1">
       <li>Developed and optimized NPU-specific kernels using C, C++, and Python.</li>
       <li>Performed RTL testing and model benchmarking for edge inference performance.</li>
@@ -82,7 +94,7 @@
 
   <div class="mb-4">
     <h3 class="font-semibold">Accelerated Operators</h3>
-    <p class="text-sm text-gray-600">Jan 2022 – Present, NXP Semiconductors</p>
+    <p class="text-sm text-gray-600">Jan 2022 – May 2025, NXP Semiconductors</p>
     <p class="text-sm">Developed deep learning operators specifically optimized for NXP MCUs and MPUs.</p>
   </div>
 
